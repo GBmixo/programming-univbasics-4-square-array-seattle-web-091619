@@ -8,6 +8,7 @@ def square_array(array)
     puts squared
     @numbers.push(squared)
     p @numbers
+    counter -= 1
   end
   
 end
