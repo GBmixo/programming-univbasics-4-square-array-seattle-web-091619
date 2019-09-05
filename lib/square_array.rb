@@ -6,8 +6,10 @@ def square_array(array)
     square_this = array.shift
     squared = square_this ** 2
     array.push(squared)
-    p array
     counter -= 1
+  end
+  if counter == 0
+    p array
   end
   
 end
