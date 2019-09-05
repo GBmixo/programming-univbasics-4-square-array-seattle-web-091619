@@ -1,7 +1,7 @@
 numbers = [1, 2, 3]
 
 def square_array(array)
-  counter = 3
+  counter = array.size
   while counter > 0
     square_this = array.shift
     squared = square_this ** 2
